@@ -1,0 +1,40 @@
+{
+  "name": "nodejsapi",
+  "version": "1.0.0",
+  "description": "NodeJS api with Docker, Express and MySQL",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start:dev": "NODE_ENV=dev nodemon src/index.js",
+    "start:prod": "NODE_ENV=prod node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jemokbass/nodejsapi.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "Express",
+    "MySQL",
+    "API",
+    "Docker"
+  ],
+  "author": "jemokbass",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jemokbass/nodejsapi/issues"
+  },
+  "homepage": "https://github.com/jemokbass/nodejsapi#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "ip": "^1.1.8",
+    "mysql": "^2.18.1",
+    "pino": "^8.16.1",
+    "pino-pretty": "^10.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
